@@ -13,27 +13,54 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <header id="header">
+      <img
+        src="https://cdn.shopify.com/s/files/1/0383/5441/files/logo-desktop_280x@2x.png?v=1586338941"
+        alt="Hamboards Logo"
+        id="header-img"
+      />
+      <nav id="nav-bar">
+        <a rel="stylesheet" href="#featured" class="nav-link"
+          >Featured Boards</a
+        >
+        <a rel="stylesheet" href="#tribe" class="nav-link">Our Tribe</a>
+        <a rel="stylesheet" href="#trucks" class="nav-link"
+          >Revolutionary Trucks</a
+        >
+      </nav>
+    </header>
     <div id="main-container">
-      <header id="header">
-        <img
-          src="https://cdn.shopify.com/s/files/1/0383/5441/files/logo-desktop_280x@2x.png?v=1586338941"
-          alt="Hamboards Logo"
-          id="header-img"
-        />
-        <nav id="nav-bar">
-          <a rel="stylesheet" href="#featured" class="nav-link"
-            >Featured Boards</a
-          >
-          <a rel="stylesheet" href="#tribe" class="nav-link">Meet The Tribe</a>
-          <a rel="stylesheet" href="#trucks" class="nav-link"
-            >Revolutionary Trucks</a
-          >
-        </nav>
-      </header>
-      <div id="featured"></div>
-      <span id="tribe">
-        <video src="https://youtu.be/3b4xws1z1x4" id="video"></video>
-      </span>
+      <div id="featured">
+        <div class="col-2" id="featured-container">
+          ☀️
+        </div>
+      </div>
+      <div id="tribe-row">
+        <div id="tribe">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/7HNDfQswxDY"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <div id="trucks-row">
+        <div id="trucks">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/uqsOgvmzdhE"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+
       <form action="https://www.freecodecamp.com/email-submit" id="form">
         <label for="email"
           ><h2>Sign up for sick updates and offers here!🤙🏾</h2></label
@@ -46,7 +73,7 @@
           placeholder="Enter yer email"
           required
         />
-        <input type="submit" id="submit" value="Yewwwww" />
+        <input class="btn" type="submit" id="submit" value="Yewwwww" />
       </form>
     </div>
   </body>
