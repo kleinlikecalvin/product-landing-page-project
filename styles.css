@@ -1,4 +1,71 @@
+#main-container {
+  font-family: Montserrat, sans-serif;
+  border: 2px solid black;
+}
+#header-img {
+  border: 2px solid black;
+}
+#nav-row {
+  display: flex;
+  border: 2px solid black;
+}
 #nav-bar {
   position: absolute;
+}
+#nav-link {
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+}
+#nav-link:hover {
   color: red;
+}
+#tribe-row {
+  border: 2px solid black;
+}
+#tribe {
+  border: 2px solid black;
+}
+#video {
+  text-align: center;
+  border: 2px solid black;
+}
+#featured-row {
+  border: 2px solid black;
+}
+#featured-container {
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+#trucks-row {
+  border: 2px solid black;
+}
+#trucks {
+  border: 2px solid black;
+}
+#trucksVideo {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid black;
+}
+#form-row {
+  border: 2px solid black;
+}
+#form {
+  border: 2px solid black;
+}
+#email-label {
+  border: 2px solid black;
+}
+#email {
+  border: 2px solid black;
+}
+#submit {
+  border: 2px solid black;
+}
+footer {
+  text-align: center;
+  border: 2px solid black;
 }

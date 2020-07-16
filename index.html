@@ -12,59 +12,127 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
-    <header id="header">
-      <img
-        src="https://cdn.shopify.com/s/files/1/0383/5441/files/logo-desktop_280x@2x.png?v=1586338941"
-        alt="Hamboards Logo"
-        id="header-img"
-      />
-      <nav id="nav-bar">
-        <a rel="stylesheet" href="#featured" class="nav-link"
-          >Featured Boards</a
+  <body class="container-fluid" id="main-container">
+    <div class="row" id="nav-row">
+      <header id="header">
+        <nav class="navbar navbar-light bg-light" id="nav-bar">
+          <a class="navbar-brand" href="#" id="header-img">
+            <img
+              src="https://cdn.shopify.com/s/files/1/0383/5441/files/logo-desktop_280x@2x.png?v=1586338941"
+              width="300"
+              height="100"
+              alt="Hamboards logo"
+              loading="lazy"
+            />
+          </a>
+        </nav>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#tribe" id="nav-link">Tribe</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#featured" id="nav-link"
+              >Featured Boards</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#trucks" id="nav-link"
+              >Revolutionary Trucks</a
+            >
+          </li>
+        </ul>
+      </header>
+    </div>
+    <div class="row" id="tribe-row">
+      <div id="tribe">
+        <iframe
+          class="embed-responsive"
+          id="video"
+          controls
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/7HNDfQswxDY"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="row" id="featured-row">
+      <div class="col-4" id="featured-container">
+        <div class="row">
+          <img
+            src="https://cdn.shopify.com/s/files/1/0383/5441/products/img1_ae6d4d48-4417-4138-abe9-92adb997d255_2048x.jpg?v=1568691529"
+            alt="Orange and yellow longboard skate deck"
+            width="350"
+            height="350"
+            class="img-fluid"
+          />
+        </div>
+        <div class="row">
+          <h3>Classic <br />Currently Sold Out</h3>
+        </div>
+        <div class="row">
+          <a
+            href="https://hamboards.com/collections/longboard-surf-skates/products/the-classic-orange-yellow"
+            target="_blank"
+            ><button class="btn" type="submit" id="submit">
+              Yewwwww
+            </button></a
+          >
+        </div>
+      </div>
+      <div class="col-4" id="featured-container">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0383/5441/products/Logger_Light_Blue_Leg_Stripes_edit_2048x.jpg?v=1569675479"
+          alt="Light blue longboard skate deck with horizontal pinstriping"
+          width="350"
+          height="350"
+          class="img-fluid"
+        />
+        <h3>Logger <br />$399.99</h3>
+        <a
+          href="https://hamboards.com/collections/longboard-surf-skates/products/logger-surfskate-longboard-5-hst-200"
+          target="_blank"
+          ><button class="btn" type="submit" id="submit">Yewwwww</button></a
         >
-        <a rel="stylesheet" href="#tribe" class="nav-link">Our Tribe</a>
-        <a rel="stylesheet" href="#trucks" class="nav-link"
-          >Revolutionary Trucks</a
-        >
-      </nav>
-    </header>
-    <div id="main-container">
-      <div id="featured">
-        <div class="col-2" id="featured-container">
-          ☀️
-        </div>
       </div>
-      <div id="tribe-row">
-        <div id="tribe">
-          <iframe
-            id="video"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/7HNDfQswxDY"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
-      <div id="trucks-row">
-        <div id="trucks">
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/uqsOgvmzdhE"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-        </div>
-      </div>
+      <div class="col-4" id="featured-container">
+        <img
+          src="https://cdn.shopify.com/s/files/1/0383/5441/products/bamboo.Pinger.surfy.longboard_2048x.jpg?v=1569382234"
+          alt="Bamboo longboard skate deck"
+          width="350"
+          height="350"
+          class="img-fluid"
+        />
+        <h3>Pinger <br />$529</h3>
 
-      <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <label for="email"
-          ><h2>Sign up for sick updates and offers here!🤙🏾</h2></label
+        <a
+          href="https://hamboards.com/collections/longboard-surf-skates/products/2018-pinger-natural-bamboo-57-hst-trucks"
+          target="_blank"
+          ><button class="btn" type="submit" id="submit">Yewwwww</button></a
         >
+      </div>
+    </div>
+    <div class="row" id="trucks-row">
+      <div id="trucks">
+        <iframe
+          class="embed-responsive"
+          id="trucksVideo"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/uqsOgvmzdhE"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+    <div class="row" id="form-row">
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <label for="email">
+          <h2 id="email-label">Sign up for sick updates and offers here!🤙🏾</h2>
+        </label>
         <br />
         <input
           name="email"
@@ -76,6 +144,9 @@
         <input class="btn" type="submit" id="submit" value="Yewwwww" />
       </form>
     </div>
+    <footer class="row">
+      Coded By Nikki Klein
+    </footer>
   </body>
   <script src="app.js"></script>
 </html>
