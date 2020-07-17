@@ -9,42 +9,45 @@
   display: flex;
   border: 2px solid black;
 }
-#nav-bar {
-  position: sticky;
-}
-#nav-link {
-  text-decoration: none;
-  color: black;
-  border: 2px solid black;
-}
-#nav-link:hover {
-  color: red;
-}
 #tribe-row {
   border: 2px solid black;
 }
+
 #tribe {
+  text-align: center;
   border: 2px solid black;
+  max-width: 600px;
 }
+
 #video {
   text-align: center;
   border: 2px solid black;
 }
-#featured-row {
-  border: 2px solid black;
+@media (min-width: 576px) {
+  #featured-row {
+    border: 2px solid black;
+  }
 }
-#featured-container {
-  display: flex;
-  justify-content: center;
-  border: 2px solid black;
+@media (min-width: 576px) {
+  #featured-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+  }
 }
-#price {
-  font-size: 10px;
+@media (min-width: 576px) {
+  #price {
+    font-size: 10px;
+  }
 }
 #trucks-row {
   border: 2px solid black;
 }
 #trucks {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  max-width: 600px;
   border: 2px solid black;
 }
 #trucksVideo {
@@ -60,15 +63,17 @@
   border: 2px solid black;
 }
 #email-label {
+  text-align: center;
   border: 2px solid black;
 }
 #email {
   border: 2px solid black;
 }
 #submit {
+  background-color: #ffd103;
   border: 2px solid black;
 }
-footer {
+#footer {
   text-align: center;
   border: 2px solid black;
 }

@@ -14,7 +14,10 @@
   </head>
   <body>
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-bar">
+      <nav
+        class="navbar navbar-expand-lg stick-top navbar-light bg-light"
+        id="nav-bar"
+      >
         <a class="navbar-brand" href="#" id="header-img"
           ><img
             src="https://cdn.shopify.com/s/files/1/0383/5441/files/logo-desktop_280x@2x.png?v=1586338941"
@@ -44,13 +47,14 @@
               <a class="nav-link" href="#featured">Featured</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#trucks"> Revolutionary Trucks</a>
+              <a class="nav-link" href="#trucks">Trucks</a>
             </li>
           </ul>
         </div>
       </nav>
       <div class="row" id="tribe-row">
-        <div class="col-6" id="tribe">
+        <div class="col-12" id="tribe">
+          <h1>Meet the Tribe</h1>
           <iframe
             class="embed-responsive"
             id="video"
@@ -64,7 +68,7 @@
           ></iframe>
         </div>
       </div>
-      <div class="row" id="featured-row">
+      <div class="row" id="featured">
         <div class="col-4" id="featured-container">
           <div class="row">
             <div class="col-6">
@@ -169,7 +173,8 @@
         </div>
       </div>
       <div class="row" id="trucks-row">
-        <div class="col-6" id="trucks">
+        <div class="col-12" id="trucks">
+          <h1>Check out our revolutionary trucks design</h1>
           <iframe
             class="embed-responsive"
             id="trucksVideo"
@@ -183,27 +188,39 @@
           ></iframe>
         </div>
       </div>
-      <div class="row" id="form-row">
-        <form action="https://www.freecodecamp.com/email-submit" id="form">
-          <label for="email">
-            <h2 id="email-label">
-              Sign up for sick updates and offers here!🤙🏾
-            </h2>
-          </label>
-          <br />
-          <input
-            name="email"
-            type="email"
-            id="email"
-            placeholder="Enter yer email"
-            required
-          />
-          <input class="btn" type="submit" id="submit" value="Yewwwww" />
-        </form>
+      <div class="form-row">
+        <div class="col-12">
+          <form
+            class="form-group"
+            action="https://www.freecodecamp.com/email-submit"
+            id="form"
+          >
+            <label for="email">
+              <h3 id="email-label">
+                Sign up for sick updates and offers here!🤙🏾
+              </h3>
+            </label>
+            <br />
+            <input
+              name="email"
+              type="email"
+              id="email"
+              placeholder="Enter yer email"
+              required
+            />
+            <input class="btn" type="submit" id="submit" value="Yewwwww" />
+          </form>
+        </div>
       </div>
-      <footer class="row">
-        Coded By Nikki Klein
-      </footer>
+      <div class="row">
+        <div class="col-12">
+          <div class="container-fluid text-center text-md-left">
+            <p id="footer">
+              Coded By Nikki Klein
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
   <script src="app.js"></script>
