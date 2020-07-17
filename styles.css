@@ -10,7 +10,7 @@
   border: 2px solid black;
 }
 #nav-bar {
-  position: absolute;
+  position: sticky;
 }
 #nav-link {
   text-decoration: none;
@@ -37,6 +37,9 @@
   display: flex;
   justify-content: center;
   border: 2px solid black;
+}
+#price {
+  font-size: 10px;
 }
 #trucks-row {
   border: 2px solid black;
