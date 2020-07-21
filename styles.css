@@ -1,5 +1,5 @@
 #main-container {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   border: 2px solid black;
 }
 #header-img {
@@ -13,38 +13,39 @@
   border: 2px solid black;
 }
 
-#tribe {
-  text-align: center;
-  border: 2px solid black;
-  max-width: 600px;
-}
 #video {
   border: 2px solid black;
 }
-@media (min-width: 576px) {
+@media (max-width: 600px) {
+  #tribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    border: 2px solid black;
+  }
+  #trucks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    border: 2px solid black;
+  }
+}
+@media (min-width: 100px) {
   #featured-row {
     border: 2px solid black;
   }
-}
-@media (min-width: 576px) {
   #featured-container {
-    display: flex;
-    justify-content: center;
     border: 2px solid black;
   }
 }
-@media (min-width: 576px) {
+@media (min-width: 100px) {
   #price {
     font-size: 10px;
   }
-}
-#trucks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 600px;
-  text-align: center;
-  border: 2px solid black;
 }
 
 #form-row {
