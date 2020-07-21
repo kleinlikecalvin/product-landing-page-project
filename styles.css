@@ -12,26 +12,18 @@
 #tribe-row {
   border: 2px solid black;
 }
-
-#video {
+#tribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   border: 2px solid black;
 }
 @media (max-width: 600px) {
-  #tribe {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 600px;
-    border: 2px solid black;
-  }
-  #trucks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    max-width: 600px;
-    border: 2px solid black;
+  #video {
+    width: 50%;
+    height: 50%;
+    float: center;
   }
 }
 @media (min-width: 100px) {
@@ -47,7 +39,14 @@
     font-size: 10px;
   }
 }
-
+#trucks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid black;
+}
 #form-row {
   border: 2px solid black;
 }
