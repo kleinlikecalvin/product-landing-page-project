@@ -21,8 +21,8 @@
 }
 @media (max-width: 600px) {
   #video {
-    width: 50%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     float: center;
   }
 }
@@ -33,8 +33,6 @@
   #featured-container {
     border: 2px solid black;
   }
-}
-@media (min-width: 100px) {
   #price {
     font-size: 10px;
   }
