@@ -18,9 +18,7 @@
   border: 2px solid black;
   max-width: 600px;
 }
-
 #video {
-  text-align: center;
   border: 2px solid black;
 }
 @media (min-width: 576px) {
@@ -40,30 +38,23 @@
     font-size: 10px;
   }
 }
-#trucks-row {
-  border: 2px solid black;
-}
 #trucks {
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  max-width: 600px;
-  border: 2px solid black;
-}
-#trucksVideo {
-  margin-top: 50px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  text-align: center;
   border: 2px solid black;
 }
+
 #form-row {
   border: 2px solid black;
 }
 #form {
+  text-align: center;
   border: 2px solid black;
 }
 #email-label {
-  text-align: center;
   border: 2px solid black;
 }
 #email {
@@ -76,4 +67,11 @@
 #footer {
   text-align: center;
   border: 2px solid black;
+}
+#footerLink {
+  text-decoration: none;
+  color: black;
+}
+#footerLink:hover {
+  color: #ffd103;
 }
