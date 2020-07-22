@@ -2,7 +2,6 @@
   font-family: "Montserrat", sans-serif;
   background: #f8f9fa;
   color: #3e2d29;
-  border: 2px solid #3e2d29;
 }
 #nav-bar {
   margin: 0 auto;
@@ -14,13 +13,12 @@
   align-items: center;
   text-align: center;
   background: #ffd103;
-  margin-top: 20px;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  padding-right: 10px;
-  padding-left: 10px;
   margin-right: 5%;
   margin-left: 5%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-right: 1%;
+  padding-left: 1%;
   border-radius: 4px;
 }
 @media (max-width: 600px) {
@@ -30,32 +28,19 @@
     float: center;
   }
 }
-@media (min-height: 300px) {
-  #video {
-    width: auto;
-    height: auto;
-    float: center;
-  }
-}
 @media (min-width: 400px) {
-  #video {
-    width: auto;
-    height: auto;
-    float: center;
-  }
-
   #featured {
     background: #fff;
     margin: 0 auto;
     margin-left: 5%;
     margin-right: 5%;
     padding: 0;
+    padding-top: 1%;
     padding-bottom: 1%;
     border: 2px solid #3e2d29;
     border-radius: 4px;
   }
   #featured-label {
-    padding-top: 1%;
     text-align: center;
     color: #3e2d29;
   }
@@ -76,8 +61,9 @@
 }
 #form {
   text-align: center;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding: 1%;
 }
 #email {
   line-height: 30px;
@@ -93,6 +79,9 @@
   background-color: #ffd103;
   margin: 0 auto;
   border: 2px solid #3e2d29;
+}
+#submit:hover {
+  background: #d1ac0a;
 }
 #footer {
   text-align: center;
