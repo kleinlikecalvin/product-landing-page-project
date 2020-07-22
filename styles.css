@@ -37,7 +37,7 @@
     float: center;
   }
 }
-@media (min-width: 100px) {
+@media (min-width: 400px) {
   #video {
     width: auto;
     height: auto;
@@ -45,29 +45,24 @@
   }
   #featured-label {
     text-align: center;
-    padding-top: 1%;
-    color: #3e2d29;
-  }
-  #featured {
-    background: #fff;
-    margin: 0 auto;
+    padding-top: 10px;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 0;
-    padding-bottom: 1%;
-    border: 2px solid #3e2d29;
+    color: #3e2d29;
+    border: 4px solid #fff;
+    border-bottom: 0px;
     border-radius: 4px;
   }
-  #featured-row {
+  #featured {
     margin: 0 auto;
     margin-left: 5%;
     margin-right: 5%;
     padding: 0;
   }
   #featured-container {
-    padding: 1%;
-    margin: 0 auto;
+    padding: 10px;
     background: #fff;
+    border: 2px solid #3e2d29;
   }
   #price {
     font-size: 10px;
