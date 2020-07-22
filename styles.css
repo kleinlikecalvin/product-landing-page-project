@@ -1,70 +1,87 @@
 #main-container {
   font-family: "Montserrat", sans-serif;
+  background: #f8f9fa;
+  color: #3e2d29;
   border: 2px solid black;
 }
-#header-img {
-  border: 2px solid black;
+#nav-bar {
+  margin: 0 auto;
+  padding: 0;
 }
-#nav-row {
-  display: flex;
-  border: 2px solid black;
-}
-#tribe-row {
-  border: 2px solid black;
-}
-#tribe {
+.iframes {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 2px solid black;
+  background: #ffd103;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 100px;
+  margin-left: 100px;
+  border-radius: 4px;
 }
 @media (max-width: 600px) {
   #video {
-    width: 90%;
-    height: 90%;
+    width: 60%;
+    height: 60%;
     float: center;
   }
 }
-@media (min-width: 100px) {
-  #featured-row {
-    border: 2px solid black;
+@media (min-height: 300px) {
+  #video {
+    width: auto;
+    height: auto;
+    float: center;
+  }
+}
+@media (min-width: 200px) {
+  #video {
+    width: auto;
+    height: auto;
+    float: center;
+  }
+  #featured-label {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #featured {
+    margin-left: 0px;
+    margin-right: 0px;
+    background: #fff;
   }
   #featured-container {
-    border: 2px solid black;
+    padding: 10px;
+    border: 2px solid #ffd103;
   }
   #price {
     font-size: 10px;
   }
 }
-#trucks {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
-  border: 2px solid black;
-}
-#form-row {
-  border: 2px solid black;
-}
 #form {
   text-align: center;
-  border: 2px solid black;
-}
-#email-label {
-  border: 2px solid black;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 #email {
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0px;
   border: 2px solid black;
+  border-radius: 4px;
+}
+#line {
+  background-color: #ffd103;
 }
 #submit {
   background-color: #ffd103;
+  margin: 0 auto;
   border: 2px solid black;
 }
 #footer {
   text-align: center;
-  border: 2px solid black;
 }
 #footerLink {
   text-decoration: none;

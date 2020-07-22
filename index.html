@@ -18,9 +18,9 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="main-container">
       <nav
-        class="navbar navbar-expand-lg stick-top navbar-light bg-light"
+        class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
         id="nav-bar"
       >
         <a class="navbar-brand" href="#" id="header-img"
@@ -35,32 +35,28 @@
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#tribe">Tribe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#featured">Featured</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#trucks">Trucks</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#tribe">Tribe</a>
+            <a class="nav-item nav-link" href="#featured">Featured</a>
+            <a class="nav-item nav-link" href="#trucks">Trucks</a>
+          </div>
         </div>
       </nav>
-      <section id="tribe">
+      <section id="tribe" class="iframes">
         <h1>Meet the Tribe</h1>
         <iframe
-          class="embed-responsive-item"
+          class="embed-responsive-item vw-50 vh-50"
           id="video"
           controls
           width="560"
@@ -70,8 +66,10 @@
           allowfullscreen
         ></iframe>
       </section>
+
+      <h1 id="featured-label">Featured Products</h1>
       <div class="row" id="featured">
-        <div class="col-sm-4" id="featured-container">
+        <div class="col-md-4" id="featured-container">
           <div class="row">
             <div class="col-6">
               <img
@@ -105,7 +103,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4" id="featured-container">
+        <div class="col-md-4" id="featured-container">
           <div class="row">
             <div class="col-6">
               <img
@@ -139,7 +137,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4" id="featured-container">
+        <div class="col-md-4" id="featured-container">
           <div class="row">
             <div class="col-6">
               <img
@@ -174,10 +172,10 @@
           </div>
         </div>
       </div>
-      <section id="trucks">
-        <h1>Check out our revolutionary trucks design</h1>
+      <section id="trucks" class="iframes embed-responsive vw-50 vh-50">
+        <h1>Revolutionary Trucks Design</h1>
         <iframe
-          class="embed-responsive-item"
+          class="embed-responsive-item vw-50 vh-50"
           id="video"
           controls
           width="560"
@@ -209,6 +207,7 @@
             />
             <input class="btn" type="submit" id="submit" value="Yewwwww" />
           </form>
+          <hr id="line" />
         </div>
       </div>
       <div class="row">
