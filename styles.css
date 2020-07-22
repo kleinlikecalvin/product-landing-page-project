@@ -1,7 +1,8 @@
-#main-container {
-  font-family: "Montserrat", sans-serif;
+#header {
+  padding-left: 2%;
+  padding-right: 2%;
   background: #f8f9fa;
-  color: #3e2d29;
+  font-family: "Montserrat", sans-serif;
 }
 #nav-bar {
   margin: 0 auto;
@@ -12,6 +13,12 @@
 }
 #nav-link:hover {
   color: #ffd103;
+}
+#main {
+  padding-top: 1%;
+  font-family: "Montserrat", sans-serif;
+  background: #f8f9fa;
+  color: #3e2d29;
 }
 .iframes {
   display: flex;
@@ -33,6 +40,10 @@
     height: 60%;
     float: center;
   }
+}
+.box {
+  display: flex;
+  justify-content: flex-start;
 }
 @media (min-width: 400px) {
   #featured {
@@ -76,7 +87,7 @@
   line-height: 30px;
   margin: 0 auto;
   padding: 0px;
-  border: 2px solid #3e2d29;
+  border: 1px solid #3e2d29;
   border-radius: 4px;
 }
 #line {
