@@ -2,7 +2,7 @@
   font-family: "Montserrat", sans-serif;
   background: #f8f9fa;
   color: #3e2d29;
-  border: 2px solid black;
+  border: 2px solid #3e2d29;
 }
 #nav-bar {
   margin: 0 auto;
@@ -77,7 +77,7 @@
   line-height: 30px;
   margin: 0 auto;
   padding: 0px;
-  border: 2px solid black;
+  border: 2px solid #3e2d29;
   border-radius: 4px;
 }
 #line {
@@ -86,14 +86,14 @@
 #submit {
   background-color: #ffd103;
   margin: 0 auto;
-  border: 2px solid black;
+  border: 2px solid #3e2d29;
 }
 #footer {
   text-align: center;
 }
 #footerLink {
   text-decoration: none;
-  color: black;
+  color: #3e2d29;
 }
 #footerLink:hover {
   color: #ffd103;
